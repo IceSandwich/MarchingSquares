@@ -19,7 +19,7 @@ python main.py # run demo
 import MarchingSquares
 
 data = ... # numpy array, 2-dimention, single channel
-points = MarchingSquares.Extract(data) # we got contour points
+points = MarchingSquares.Extract(data, level=0.5) # we got contour points
 ```
 
 
